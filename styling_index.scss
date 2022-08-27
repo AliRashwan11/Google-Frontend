@@ -1,0 +1,80 @@
+$Background_Color:rgb(32,33,36);
+
+// setting background color of page
+
+body{
+    background-color: $Background_Color;
+    margin:0px;
+    padding:0px;
+
+}
+
+// making placeholder text transparent when clicked on
+
+input:focus::placeholder{
+    color:transparent;
+}
+
+// making text forms display block and centered
+
+input[type="text"]{
+    display:block;
+    margin: 0 auto;
+}
+
+// setting the top margin for display
+
+.Display{
+    position:relative;
+    top:120px;
+}
+
+// setting position of Google logo with respect to the display + setting Google logo dimensions
+
+.Logo{
+    position:relative;
+    display:block;
+    margin:auto auto;
+    width:440px;
+    height:110px;
+}
+
+// setting position of search bar relative to the logo + search bar rounded dimensions
+
+.search_bar{
+    position: relative;
+    top:10px;
+    text-align: center;
+
+    input[type="text"]{
+        width:400px;
+        height: 23px;
+        border-radius: 30px 30px 30px 30px;
+        text-align: center;
+        border-color: darkblue;
+        border-width: 3px;
+        
+    }
+
+    input[type="submit"]{
+        position:relative;
+        top:10px;
+        height:23px;
+        width:auto;
+        margin-right:10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px 3px 3px 3px;
+        border-color:white ;
+    }
+
+    
+}
+
+.To_Bright{
+    a{
+        position: absolute;
+        left:10px;
+        top:10px;
+        color:goldenrod;
+    }
+}
