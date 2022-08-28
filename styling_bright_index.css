@@ -1,5 +1,5 @@
 body {
-  background-image: url("bright_background.jpg");
+  background-image: url("bright_bg5.jpg");
   margin: 0px;
   padding: 0px;
 }
@@ -40,7 +40,7 @@ input[type=text] {
   height: 23px;
   border-radius: 30px 30px 30px 30px;
   text-align: center;
-  border-color: gold;
+  border-color: darkgray;
   border-width: 3px;
   background-color: rgb(225, 225, 225);
 }
@@ -50,7 +50,7 @@ input[type=text] {
   height: 23px;
   width: auto;
   margin-right: 10px;
-  background-color: goldenrod;
+  background-color: darkgrey;
   border-radius: 3px 3px 3px 3px;
   border-color: black;
   border-width: 1px;
