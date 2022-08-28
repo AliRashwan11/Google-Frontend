@@ -4,7 +4,7 @@ $Background_Color: white;
 
 
 body{
-    background-image: url("strip.jpg");
+    background-image: url("bright_background.jpg");
     margin:0px;
     padding:0px;
 
@@ -14,6 +14,10 @@ body{
 
 input:focus::placeholder{
     color:transparent;
+}
+
+input[type="submit"]:hover{
+    border-style: dashed;
 }
 
 // making text forms display block and centered
@@ -81,3 +85,18 @@ input[type="text"]{
     }
 }
 
+
+img[src="google_advanced.png"]{
+    position:absolute;
+    top:10px;
+    right:-5px;
+    width:80px;
+    height:30px;
+}
+img[src="google_images.png"]{
+    position:absolute;
+    top:-10px;
+    right:55px;
+    width:80px;
+    height:70px;
+}
