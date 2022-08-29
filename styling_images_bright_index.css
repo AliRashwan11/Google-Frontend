@@ -1,5 +1,5 @@
 body {
-  background-image: url("bright_bg2.jpg");
+  background-image: url("space_bright.jfif");
   margin: 0px;
   padding: 0px;
 }
@@ -8,8 +8,8 @@ input:focus::placeholder {
   color: transparent;
 }
 
-input[type=submit]:hover {
-  border-style: dashed;
+input:hover {
+  border-width: 3px;
 }
 
 input[type=text] {
@@ -19,64 +19,53 @@ input[type=text] {
 
 .Display {
   position: relative;
-  top: 120px;
+  top: 130px;
 }
 
 .Logo {
   position: relative;
   display: block;
   margin: auto auto;
-  width: 300px;
-  height: 110px;
+  width: 265px;
+  height: 105px;
 }
 
 .search_bar {
   position: relative;
-  top: 10px;
+  top: 0px;
   text-align: center;
 }
+
 .search_bar input[type=text] {
   width: 400px;
   height: 23px;
   border-radius: 30px 30px 30px 30px;
   text-align: center;
-  border-color: darkgray;
+  border-color: darkblue;
   border-width: 3px;
-  background-color: rgb(225, 225, 225);
+  border-color: blue;
+  border-width: 2px;
 }
+
 .search_bar input[type=submit] {
   position: relative;
   top: 10px;
   height: 23px;
   width: auto;
   margin-right: 10px;
-  background-color: darkgrey;
+  background-color: rgb(255, 255, 255);
   border-radius: 3px 3px 3px 3px;
-  border-color: black;
-  border-width: 1px;
+  border-color: white;
 }
 
-.To_Dark a {
+img[src="google_mini_noBG.png"] {
   position: absolute;
-  left: 10px;
-  top: 10px;
-  color: darkmagenta;
+  top: 15px;
+  right: 30px;
+  width: 38px;
+  height: 32px;
 }
 
-img[src="google_advanced.png"] {
-  position: absolute;
-  top: 10px;
-  right: -5px;
-  width: 80px;
-  height: 30px;
-}
+/*# sourceMappingURL=styling_index.css.map */
 
-img[src="google_images.png"] {
-  position: absolute;
-  top: -10px;
-  right: 55px;
-  width: 80px;
-  height: 70px;
-}
-
-/*# sourceMappingURL=styling_bright_index.css.map */
+/*# sourceMappingURL=styling_images_bright_index.css.map */

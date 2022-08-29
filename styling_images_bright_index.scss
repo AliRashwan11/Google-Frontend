@@ -1,0 +1,70 @@
+body {
+    background-image: url("space_bright.jfif");
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  
+  input:hover {
+    border-width: 3px;
+  }
+  
+  input[type=text] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .Display {
+    position: relative;
+    top: 130px;
+  }
+  
+  .Logo {
+    position: relative;
+    display: block;
+    margin: auto auto;
+    width: 265px;
+    height: 105px;
+  }
+  
+  .search_bar {
+    position: relative;
+    top: 0px;
+    text-align: center;
+  }
+  .search_bar input[type=text] {
+    width: 400px;
+    height: 23px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    border-color: darkblue;
+    border-width: 3px;
+    border-color: blue;
+    border-width: 2px;
+  }
+  .search_bar input[type=submit] {
+    position: relative;
+    top: 10px;
+    height: 23px;
+    width: auto;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px;
+    border-color: white;
+  }
+
+  img[src="google_mini_noBG.png"] {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 38px;
+    height: 32px;
+  }
+  
+
+  
+  /*# sourceMappingURL=styling_index.css.map */
+  

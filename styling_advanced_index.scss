@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(32,33,36,255);
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+img[src="google_logo.png"]{
+    position:absolute;
+    width:120px;
+    height:30px;
+    top:15px;
+    left:-10px;
+}
+
+h3[id="advanced_search_logo"]
+{
+    position:absolute;
+    left:40px;
+    top:60px;
+    height:5px;
+    color:lightcoral;
+    font-weight: lighter;
+
+}
+
+hr{
+   position: relative;
+   top:120px;
+   color:azure;
+   border-width: 1px;
+}
+
+div[id="search_beg"]{
+    color:white; 
+    height:100px;
+    position:absolute; 
+    top:160px; 
+    left:40px;
+    font-weight:bolder;
+}
+
+h5[id="search_instructions"]{
+    color:white; 
+    height:40px;
+    position:absolute; 
+    top:140px; 
+    left:700px;
+    font-weight:bolder;
+}
+
+.input_box{
+    position:absolute;
+    top:200px;
+    left:40px;
+    
+}
+
+
+
+
+
+

@@ -76,4 +76,35 @@ it behaves like absolute , but when you scroll out of range it get stuck to the 
    </a>
 
 
+
+5- attribute to make a google search : one text input with name="q"
+   attribute to make a google image search : one text input with name="q"
+                                             and another hidden input with name"tbm" and value="isch"
+
+
+
+6- to remove autocomplete
+   insdie form tag -> autocomplete="off"
+   this removes search history popping up when clicking the search bar
+
+
+
+7- URLS explained
+   https://www.google.com/search?q=minions&sxsrf=ALiCshidgdvj&........
+   the url is divided into 2 pieces
+   the first is the site's ROUTE .. which here is https://www.google.com/search
+   the second part is called the QUERY STRING which is composed out of GET parameters "name1=value1&name2=value2&..."
+   each parameter has a NAME and a VALUE
+   some parameters are mandatory while others are optional
+   you have to set name and value of the mandatory parameters inside an input tag in the form in able to
+   execute the search
+   all inputs inside the form turn to GET paramaters , so choose the correct names and values
+
+
+
+8- <br> tag breaks a newline
+   <hr> makes a horizontal line
+
+
+
 -->
