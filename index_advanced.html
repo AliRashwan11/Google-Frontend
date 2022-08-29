@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Google Advanceed Search</title>
+    <title>Google Advanced Search</title>
     <link rel="stylesheet" href="styling_advanced_index.css">
 </head>
 <body>
@@ -28,7 +28,49 @@
         <h5>
             all these words:
         </h5>
+    
+        <h6>
+            Type the important words: tri-colour rat terrier
+        </h6>
     </div>
+
+    <div class="input_box" style="top:240px;">
+        <h5>
+            this exact word or phrase:
+        </h5>
+        
+        <h6>
+            Put exact words in quotes: "rat terrier"
+        </h6>
+    </div>
+
+    <div class="input_box" style="top:280px;">
+        <h5>
+            any of these words:
+        </h5>
+    
+        <h6>
+            Type OR between all the words you want: miniature OR standard
+        </h6>
+    </div>
+
+    <div class="input_box" style="top:320px;">
+        <h5>
+            none of these words:
+        </h5>
+
+        <h6>
+            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+        </h6>
+    </div>
+
+    <form action="https://www.google.com/search" autocomplete="off">
+        <input type="text" name="as_q">
+        <input type="text" name="as_epq" style="top:240px">
+        <input type="text" name="as_oq" style="top:280px">
+        <input type="text" name="as_eq" style="top:320px">
+        <input type="submit" value="Advanced Search">
+    </form>
 
 </body>
 </html>

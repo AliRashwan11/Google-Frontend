@@ -48,9 +48,46 @@ h5[id=search_instructions] {
 }
 
 .input_box {
+  display: block;
   position: absolute;
   top: 200px;
   left: 40px;
+}
+.input_box h5 {
+  display: inline;
+  color: white;
+  font-weight: lighter;
+}
+.input_box h6 {
+  position: absolute;
+  left: 670px;
+  margin: auto auto;
+  width: 260px;
+  display: inline;
+  color: grey;
+  margin-left: 15px;
+  font-weight: lighter;
+}
+
+form input[type=text] {
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  width: 465px;
+  background-color: rgb(32, 33, 36);
+  border-color: white;
+  border-width: 1px;
+  height: 22px;
+  caret-color: white;
+  color: white;
+}
+form input[type=submit] {
+  position: absolute;
+  top: 360px;
+  left: 566px;
+  height: 27px;
+  background-color: rgb(138, 180, 248);
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=styling_advanced_index.css.map */
